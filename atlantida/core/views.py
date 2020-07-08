@@ -40,3 +40,30 @@ class ContactView(View):
 
     def get(self, request):
         return render(request, self.template_name)
+
+class audio_visual(View):
+    template_name = 'audio_visual.html'
+
+    def get(self, request):
+        return render(request, self.template_name)
+class security(View):
+    template_name = 'security.html'
+
+    def get(self, request):
+        return render(request, self.template_name)
+class POE(View):
+    template_name = 'POE.html'
+
+    def get(self, request):
+        return render(request, self.template_name)
+class structured_cabling(View):
+    template_name = 'structured_cabling.html'
+
+    def get(self, request):
+        return render(request, self.template_name)
+
+class wireless(View):
+    template_name = 'wireless.html'
+
+    def get(self, request):
+        return render(request, self.template_name)

@@ -26,5 +26,10 @@ urlpatterns = [
     path('products/', views.ProductsView.as_view(), name='products'),
     path('career/', views.CareerView.as_view(),name='career'),
     path('contact/', views.ContactView.as_view(), name='contact'),
+    path('audio_visual/', views.audio_visual.as_view(), name='audio_visual'),
+    path('security/', views.security.as_view(), name='security'),
+    path('POE/', views.POE.as_view(), name='POE'),
+    path('structured_cabling/', views.structured_cabling.as_view(), name='structured_cabling'),
+    path('wireless/', views.wireless.as_view(), name='wireless'),
 
 ]
